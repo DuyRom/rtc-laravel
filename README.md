@@ -27,29 +27,23 @@ You need a Metered Domain and Secret Key to run this application, if you don't h
 You also need to have PHP Laravel and its dependencies installed, if you don't have them installed already then follow the guide here and install them first: https://laravel.com/docs/9.x#your-first-laravel-project
 
 ## Setting up the Project
-
-1. Clone the project repo
-```
-git clone git@github.com:metered-ca/video-chat-app-php-laravel.git
-```
-
-2. cd into the project directory
+1. cd into the project directory
 ```
 cd video-chat-app-php-laravel
 ```
 
-3. Install NPM packages
+2. Install NPM packages
 ```
 npm install
 ```
 
-4. Create the .env file
+3. Create the .env file
 ```
 cp .env.example .env
 ```
 In the `.env` file replace the `<YOUR_METERED_DOMAIN>` with your Metered Domain and `<YOUR_METERED_SECRET_KEY>` with your Metered Secret Key.
 
-5. Run the command below to start the application
+4. Run the command below to start the application
 ```
 php artisan serve
 ```
